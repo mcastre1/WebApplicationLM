@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WebApplicationLM.Models;
 
 namespace WebApplicationLM.Data
 {
@@ -12,5 +13,8 @@ namespace WebApplicationLM.Data
             : base(options)
         {
         }
+        public DbSet<WebApplicationLM.Models.Card> Card { get; set; }
+        public DbSet<WebApplicationLM.Models.Column> Column { get; set; }
+        public DbSet<WebApplicationLM.Models.Workspace> Workspace { get; set; }
     }
 }

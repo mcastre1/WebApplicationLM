@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Miguel Castrejon\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj": {}
+    "C:\\Users\\leeci\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Miguel Castrejon\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj": {
+    "C:\\Users\\leeci\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel Castrejon\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj",
+        "projectUniqueName": "C:\\Users\\leeci\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj",
         "projectName": "WebApplicationLM",
-        "projectPath": "C:\\Users\\Miguel Castrejon\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj",
-        "packagesPath": "C:\\Users\\Miguel Castrejon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel Castrejon\\source\\repos\\WebApplicationLM\\obj\\",
+        "projectPath": "C:\\Users\\leeci\\source\\repos\\WebApplicationLM\\WebApplicationLM.csproj",
+        "packagesPath": "C:\\Users\\leeci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leeci\\source\\repos\\WebApplicationLM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Miguel Castrejon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leeci\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,6 +63,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
